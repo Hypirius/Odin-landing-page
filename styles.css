@@ -40,4 +40,59 @@ h3 {
     color: #E5E7EB;
     list-style: none;
     margin-left: 15px;
+    cursor: pointer;
 }
+
+/* HERO */
+
+#hero {
+    background-color: var(--main-color);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-wrapper {
+    display: flex;
+    width: 60%;
+    gap: 1rem;
+    margin-top: 15px;
+}
+
+.hero-section,
+.image-wrapper img {
+    flex-basis: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section h1,
+.hero-section p {
+    margin-bottom: 20px;
+}
+
+.hero-section button {
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+}
+
+.hero-section button {
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+}
+
