@@ -81,13 +81,15 @@ h1 {
     margin-bottom: 20px;
 }
 
-.hero-section button {
+.hero-section button,
+.sign-up {
     display: inline-block;
     height: 40px;
     width: 100px;
 }
 
-.hero-section button {
+.hero-section button,
+.sign-up {
     border-radius: 10px;
     border: none;
     font-size: 15px;
@@ -155,6 +157,7 @@ h4 {
     font-style: italic;
     font-weight: 200;
     padding: 2px;
+    margin-top: 20px;
 }
 
 .quote-wrapper p:nth-child(2) {
@@ -162,5 +165,50 @@ h4 {
     margin-right: 40px;
     margin-top: 20px;
     font-weight: 400;
+    font-size: 26px;
 }
 
+
+/* ACTION section */
+
+.action-wrapper {
+    width: 70%;
+    margin: 90px auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px;
+    border-radius: 8px;
+}
+.action-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.action-wrapper div {
+    flex-basis: 75%;
+    margin-left: 30px;;
+}
+
+.action-wrapper div h5 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.sign-up {
+    
+    width: 140px;
+    border: 2px solid #E5E7EB;
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+}
